@@ -6,3 +6,7 @@ Targeted toward Digilent Basys3. Make sure to install the [board files](https://
 
 Built for Vivado 2024.2 on Windows 11.
 
+![Waveform from thunderbird_fsm_tb](Screenshot_2025-04-03_221201.png)
+
+Doc: Used the lab reprot of Cadet Esssig to finalize and fix my test cases by adding *1 to each clock edge and realizing that it
+is cascading one after the other

@@ -125,7 +125,6 @@ begin
             o_clk   => w_clk
         );
 	-- CONCURRENT STATEMENTS ----------------------------
-	
 	-- ground unused LEDs
 	-- leave unused switches UNCONNECTED
 	-- Ignore the warnings associated with these signals

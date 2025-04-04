@@ -138,7 +138,9 @@ begin
           wait for k_clk_period*1;
           assert w_lights = "000000" report "cuation should be off" severity failure;
 	-- Test Plan Process --------------------------------
-	
+	--began by testing the reset state souly
+	--tested the left signal cascade then the right and finished 
+	--with testing off and cuation signal
 	-----------------------------------------------------	
 	wait;
 	end process;
